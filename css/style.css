@@ -10,7 +10,7 @@ body{
 }
 /* HEADER */
 .container{
-    max-width: 90%;
+    max-width: 85%;
     margin: 0 auto;
 }
 header{
@@ -21,7 +21,7 @@ header{
     padding-top: 10px;
 }
 .header-bottom{
- height: 450px;
+height: 100vh;
  background-image: url(../img/jumbo.png);
  background-size:cover ;
 } 
@@ -50,30 +50,153 @@ header{
     color: #ffff;
     text-decoration: none;
 }
+#buttons{
+    margin-top: 50px;
+}
 .button{
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 30px;
+    padding: 10px 20px;
     border: none;
+    font-size: 14px;
 }
 .jumbotron{
-    padding-top:70px ;
+    padding-top:80px;
     text-align: center;
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
 }
 .title-header{
     color: #ffff;
-    font-size: 50px;    
+    font-size: 60px;    
 }
 .sottotitle-header{
     color: #ffff;
-    margin:30px;
-    line-height: 1.6em;
+}
+.sottotitle {
+    padding-top:30px;
+    line-height: 2em;
+    font-size: 20px;
+}
+.special-1-button{
+    font-size: 20px;
 }
 .special-button{
     background-color: black;
     color: white;
-
+    margin-left: 15px;
+    font-size: 20px;
 }
-
-
+/* Main */
+.section-container{
+    padding-top: 100px;
+    display: flex;
+}
+.section-big-column{
+    width:70% ;
+}
+.section-smoll-column{
+    width: 30%;
+    padding:35px ;
+}
+.section-container h1 {
+    font-size: 40px;
+}
+.special-item{
+    text-align: right;
+}
+.main-footer{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0; 
+}
+#title-main-footer{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.item-footer-main{
+    font-size:30px ;
+    background-image: url(../img/stars.png);
+    background-size: cover;
+    width: 50%;}
+.special-item-main{
+    display: flex;
+    justify-content: center;
+} 
+.button-main-footer{
+    background-color: #255EE9;
+    color: #ffff;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+/* FOOTER */
+footer{
+    background-color: black;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.big-column-footer > div {
+    width: 25%;
+}
+.big-column-footer{
+    width: 70%;
+    display: flex;
+    margin-top: 70px;
+}
+.smoll-column-footer{
+    width: 30%;
+}
+.content-smoll-column > h2 {
+    font-size: 40px;
+    color: #5b6db4;
+    padding-bottom:20px;
+    font-weight:bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo-ita{
+    width: 30px;
+    vertical-align: middle;
+}
+#nazione{
+    vertical-align: middle;
+    color: #ffff;  
+}
+#nazione::after{
+    content: "\2304";
+    padding: 5px;
+    font-size: 25px;
+}
+.smoll-logo{
+height: 30px;
+margin-top: 20px;
+margin-right: 15px;
+}
+.big-column-footer div > span{
+    color:#5b6db4;
+    font-size: 20px;
+    font-weight: 700;
+}
+.big-column-footer div ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.big-column-footer div ul li{
+    margin-top: 15px;
+    list-style: none;
+}
+hr{
+    border-color:#5b6db4;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.button-footer{
+    background-color: #255EE9;
+    color: #fff;
+}
